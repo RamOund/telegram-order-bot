@@ -43,7 +43,7 @@ class FSMClient(StatesGroup):
     all_selected = State()
 
 # bot = Bot(token=os.getenv('TOKEN'))
-bot = Bot(token='5649931003:AAG71W0iynv1ODbwaUSR2oJxw-MMazIFkZk')
+bot = Bot(token='5649931003:bottoken')
 
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
